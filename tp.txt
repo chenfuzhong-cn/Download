@@ -1,0 +1,60 @@
++-------------+------------------+------+-----+---------+----------------+
+| Field       | Type             | Null | Key | Default | Extra          |
++-------------+------------------+------+-----+---------+----------------+
+| id          | int(10) unsigned | NO   | PRI | NULL    | auto_increment |
+| title       | varchar(35)      | YES  |     | NULL    |                |
+| imagesrc    | varchar(200)     | YES  |     | NULL    |                |
+| intro       | text             | YES  |     | NULL    |                |
+| hits        | int(11) unsigned | NO   |     | 0       |                |
+| addtime     | int(10)          | YES  |     | NULL    |                |
+| delete_time | tinyint(4)       | YES  |     | NULL    |                |
++-------------+------------------+------+-----+---------+----------------+
+
+
+insert into tp_files values
+(null,'省市县三级联动json版','/static/img/liandong.json.jpg',456,'njnz','https://pan.baidu.com/s/1Jm36ThSyID78LRbxtYQySw',2010088888,null),
+(null,'ThinkPHP_v5.1.39 带验证码、图像处理','/static/img/tp5.1.39.jpg',456,'3zkj','https://pan.baidu.com/s/1bMjc5MQ6dJRHNujjZvw-Hg',2010088888,null),
+(null,'smarty中文手册最新版chm','/static/img/smarty.jpg',456,'u7gn','https://pan.baidu.com/s/18Bgw2gzlif7l4p2nYAxQrA',2010088888,null),
+(null,'PHP 7.3.8 手册','/static/img/php.jpg',456,'9t70','https://pan.baidu.com/s/1MkTGQw0g6RkXDlyQ-AxCDg',2010088888,null),
+(null,'史上最强的 jquery旋转插件 jqueryrotate','/static/img/rotate.jpg',456,'a7bx','https://pan.baidu.com/s/1vTFlE_qVkP9us-2vGXwOeg',2010088888,null),
+(null,'史上最强的jquery弹出层插件 layer-v3.1.1','/static/img/layer.jpg',456,'z8qp','https://pan.baidu.com/s/1nkCpJWOwOS-pLb_7zd4W1g',20100888888,null),
+(null,'可用各种api的城市代码','/static/img/city.jpg',456,'idpl','https://pan.baidu.com/s/10gs5NU_KsVvGmrnsEze7Yw',20100888888,null),
+(null,'W3Cschool JavaScript离线手册2018版','/static/img/wj2018.jpg',456,'u9pk','https://pan.baidu.com/s/1g6NUs1678-q8ssqJ3CcpPw',2010088888,null),
+(null,'W3Cschool JavaScript离线手册2019版','/static/img/wj2019.jpg',456,'behp','https://pan.baidu.com/s/1xEn1MTaHWepsSIF7Mpr5yw',2010088888,null),
+(null,'jquery手册 3.4.1版','/static/img/jquery.jpg',456,'xw0j','https://pan.baidu.com/s/1ZONZ6aF2Q_gJw50SRFp0kQ',2010088888,null),
+(null,'省市县三级联动.数据库版','/static/img/liandong.sql.jpg',456,'yggy','https://pan.baidu.com/s/1Uqt7X4XP2khKzPRn_a4u6w',201008888,null),
+(null,'composer.phar','/static/img/liandong.sql.jpg',456,'1vis','https://pan.baidu.com/s/1TLiub6f6dVuX93NKjxYyiQ',2010088888,null),
+(null,'史上最强的html框架 bootstrap-3.3.7','/static/img/bootstrap.jpg',456,'1iu9','https://pan.baidu.com/s/1AT3CH93h-8p_yfyuL-kQSQ',2010088888,null)
+；
+
+insert into tp_files values(null,'Git-2.26.2 64位','/static/img/git2.jpg','adbp','https://pan.baidu.com/s/1hkaNdoqDipc0necpAiNoiQ',null),
+(null,'史上最强的html框架 bootstrap-4.1.3','/static/img/bootstrap4.jpg','2d63','https://pan.baidu.com/s/121o0L8KRfIE2A1oaeRu9ZQ',null);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

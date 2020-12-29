@@ -1,0 +1,62 @@
+create table tp_cate(
+   id int not null primary key auto_increment,
+   pid int not null default 0 comment '上级ID',
+   cate_name varchar(50) not null comment '分类名'   
+);
+
+create table tp_tag(
+   id int not null primary key auto_increment,
+   tag_name  varchar(50)  not null
+);
+
+create table tp_article(
+   id int not null primary key auto_increment,
+   title varchar(100) not null,
+   desn text not null,
+   click int not null default 0,
+   body text,
+   create_time int,
+   updat_time int
+);
+
+create table tp_article_tag(
+   aid int not null primary key auto_increment  comment '文章ID',
+   tid int not null default 0 comment '分类ID'
+);
+
+insert into tp_cate values(null,0,'科技前沿'),
+(null,0,'运营知识'),
+(null,0,'职场攻略');
+
+insert into tp_tag values(null,'职场'),
+(null,'学习'),
+(null,'PHP'),
+(null,'运营'),
+(null,'高薪'),
+(null,'成功');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
